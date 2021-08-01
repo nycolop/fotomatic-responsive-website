@@ -214,6 +214,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    padding: 0 80px 0 0;
   }
 
   #sign-up-cta .content {
@@ -327,6 +328,31 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  #features-section {
+    flex-direction: column;
+  }
+
+  #features-section .feature {
+    width: 100%;
+    padding: 1.25rem 0 0 0;
+  }
+
+  #features-section .first {
+    background-color: #f3f3f3;
+  }
+
+  .feature h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .feature h3 {
+    text-align: center;
+  }
+}
+
 /* Filters Section */
 
 #filters-section {
@@ -399,6 +425,26 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  #filters-section .content h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+
+  #filters-section .content {
+    padding: .5rem 0;
+  }
+
+  #filters-section .content h3,
+  #filters-section .content h2 {
+    width: 80%;
+  }
+
+  .extra {
+    display: none;
+  }
+}
+
 /* Quotes Section */
 
 #quotes-section {
@@ -437,6 +483,15 @@ header .mobile {
   #quotes-section .quote-citation {
     display: block;
     padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #quotes-section .content {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

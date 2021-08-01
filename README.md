@@ -11,7 +11,7 @@
 ![screenshot](./fotomatic_spec_landing.png)
 
 ## **Fixed Version**
-![screenshot](./fixed-site.jpeg)
+![screenshot](./fixed-site.png)
 * [Here you can see the fixed version](https://necogamy.github.io/fotomatic-responsive-website/)
 
 ## **Tools Used**
