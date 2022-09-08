@@ -12,7 +12,7 @@
 
 ## **Fixed Version**
 ![screenshot](./fixed-site.png)
-* [Here you can see the fixed version](https://necogamy.github.io/fotomatic-responsive-website/)
+* [Here you can see the fixed version](https://nycolop.github.io/fotomatic-responsive-website/)
 
 ## **Tools Used**
 * Git [You can see the broken site in a commit](#comment)
